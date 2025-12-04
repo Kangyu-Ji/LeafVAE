@@ -4,10 +4,12 @@
 
 **Variational autoencoder enables unsupervised leaf diagnosis via hyperspectral imaging**
 
-LeafVAE is a variational autoencoder framework that learns spectral signatures directly from hyperspectral leaf images without manual annotation. Our model encodes leaf spectra into a compact, two-dimensional latent space where pixels cluster by spectral similarity, creating quantitative leaf descriptors from signature composition that facilitate downstream phenotyping tasks. <br />
-We found that the learned representations generalize robustly across genotypes, years, and imaging equipment on four different corn leaf datasets. We further demonstrate that LeafVAE outperforms traditional vegetation indices across multiple applications, including detecting nitrogen deficiency in corn, classifying herbicide stress in soybean, and identifying beech leaf disease using an affordable six-band multispectral camera. 
+LeafVAE is a variational autoencoder framework that learns spectral characteristics (subtle color differences) directly from hyperspectral leaf images without manual annotation. 
 
 ## Approach
+
+- The model learns spectral signatures of various types of leaves by encoding each leaf spectrum, obtained from a spatial pixel in a hyperspectral image, into a compact 2D latent embedding, from which the decoder reconstructs the original spectrum.
+- Thus, all pixels in the dataset can be encoded and projected into a common latent space, where they cluster according to spectral similarity. Each leaf can then be represented as a distribution of cluster compositions, the proportions of different spectral signatures (i.e., colors) within the leaf, which provide a simple and interpretable descriptor of leaf condition. 
 
 ![alt text](https://github.com/Kangyu-Ji/LeafVAE/blob/main/Figure/Fig1.png?raw=true)
 
@@ -19,7 +21,7 @@ We found that the learned representations generalize robustly across genotypes, 
 - sklearn https://scikit-learn.org/ (any version should work)
 
 ## Explainability
-Pixel-level explainability, achieved by combining spectral signature composition with interpretable machine learning methods, identifies regions with abnormal spectral characteristics and highlights areas of the leaf that contribute to model predictions. 
+The combination of spectral-signature clustering and Shapley-based feature explanations can show which parts of the leaf have unusual spectral patterns and reveal which areas most influence the model’s predictions.
 ![alt text](https://github.com/Kangyu-Ji/LeafVAE/blob/main/Figure/Fig2.png?raw=true)
 
 
