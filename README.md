@@ -22,7 +22,7 @@ LeafVAE is a variational autoencoder framework that learns spectral characterist
 
 ## Usage
 - Install the dependencies
-- Download the [demo dataset](https://purdue0-my.sharepoint.com/:u:/g/personal/ji275_purdue_edu/EesUuxR-2SZFobHFWZDcTFkB92WZzoFFmMiRDj2U3DZuRA?e=LG2IR7)
+- Download the [demo dataset](https://purdue0-my.sharepoint.com/:u:/g/personal/ji275_purdue_edu/EesUuxR-2SZFobHFWZDcTFkB92WZzoFFmMiRDj2U3DZuRA?e=LG2IR7) to "Dataset/2022 Corn R1" folder
 - Run the jupyter notebook LeafVAE.ipynb
 
 ## Explainability
