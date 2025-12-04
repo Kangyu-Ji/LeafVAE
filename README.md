@@ -34,3 +34,10 @@ The combination of spectral-signature clustering and Shapley-based feature expla
 - Dr. Kangyu Ji https://scholar.google.com/citations?user=Oej20eMAAAAJ
 - Prof. Jian Jin https://scholar.google.com/citations?user=rt8TzCkAAAAJ
 - ABE Plant Sensor Lab @Purdue https://engineering.purdue.edu/ABEPlantSensorLab
+- This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
