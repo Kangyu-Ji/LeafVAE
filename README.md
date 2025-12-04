@@ -19,10 +19,9 @@ We found that the learned representations generalize robustly across genotypes, 
 - sklearn https://scikit-learn.org/ (any version should work)
 
 ## Explainability
+Pixel-level explainability, achieved by combining spectral signature composition with interpretable machine learning methods, identifies regions with abnormal spectral characteristics and highlights areas of the leaf that contribute to model predictions. 
 ![alt text](https://github.com/Kangyu-Ji/LeafVAE/blob/main/Figure/Fig2.png?raw=true)
 
-- Pixel-level explainability, achieved by combining spectral signature composition with interpretable machine learning methods, identifies regions with abnormal spectral characteristics and highlights areas of the leaf that contribute to model predictions. 
-- By learning spectral features in an unsupervised manner while still allowing labels for interpretable diagnosis, LeafVAE provides a scalable foundation for automated plant phenotyping across diverse applications.
 
-
-## Software dependencies
+## About us
+- ABE Plant Sensor Lab @Purdue https://engineering.purdue.edu/ABEPlantSensorLab
