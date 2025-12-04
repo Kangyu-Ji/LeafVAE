@@ -2,7 +2,7 @@
 
 # LeafVAE
 
-**Variational autoencoder enables unsupervised leaf diagnosis via hyperspectral imaging**
+**[Paper] Variational autoencoder enables unsupervised leaf diagnosis via hyperspectral imaging**
 
 LeafVAE is a variational autoencoder framework that learns spectral characteristics (subtle color differences) directly from hyperspectral leaf images without manual annotation. 
 
@@ -19,6 +19,10 @@ LeafVAE is a variational autoencoder framework that learns spectral characterist
 - pytorch https://pytorch.org/ (any version should work)
 - scipy https://scipy.org/ (any version should work)
 - sklearn https://scikit-learn.org/ (any version should work)
+
+## Usage
+- Install the dependencies
+- Run the jupyter notebook LeafVAE.ipynb
 
 ## Explainability
 The combination of spectral-signature clustering and Shapley-based feature explanations can show which parts of the leaf have unusual spectral patterns and reveal which areas most influence the model’s predictions.
