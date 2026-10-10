@@ -3,7 +3,8 @@
 # LeafVAE
 
 **[Paper] Variational autoencoder enables unsupervised leaf diagnosis via hyperspectral imaging**
-https://doi.org/10.1016/j.compag.2026.111971
+
+Ji, Kangyu, et al. "Variational autoencoder enables unsupervised leaf diagnosis via hyperspectral imaging." Computers and Electronics in Agriculture 251 (2026): 111971. https://doi.org/10.1016/j.compag.2026.111971
 
 LeafVAE is a variational autoencoder framework that learns spectral characteristics (subtle color differences) directly from hyperspectral leaf images without manual annotation. 
 
